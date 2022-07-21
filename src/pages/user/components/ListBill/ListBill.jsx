@@ -18,8 +18,8 @@ function ListBill() {
   });
   return (
     <div>
-      <div className='list-main'>
-        <div className='list-align'>
+      <div className='list-main-bill'>
+        <div className='list-align-bill'>
           <Space
             direction='vertical'
             size='large'

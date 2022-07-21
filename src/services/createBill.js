@@ -26,7 +26,16 @@ export function createBill(props) {
   };
 
   return axios
-    .post(url, param)
+    .get(url, {
+      param: {
+        BookerId: props.BookerId,
+        PetId: props.PetId,
+        RouteId: props.RouteId,
+        BookDate: props.BookDate,
+        Price: props.Price,
+        BillStatusId: 1,
+      },
+    })
     .then((response) => response.data)
     .catch((err) => console.log(err));
 }
