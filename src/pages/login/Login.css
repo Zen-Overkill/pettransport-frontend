@@ -1,0 +1,49 @@
+.login-logo {
+  width: 40%;
+  height: auto;
+}
+
+.login-card {
+  margin-left: 35%;
+  width: 350px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin: 5% auto;
+  box-shadow: 0px 2px 3px;
+  padding: 2%;
+  background-color: #ffff;
+}
+.login-card-head {
+  display: flex;
+  justify-content: space-between;
+}
+.login-card-head-left {
+  width: 50%;
+}
+.login-card-head-left h1,
+h4 {
+  margin: 0;
+}
+.login-card-head-left {
+  text-align: left;
+}
+.login-card-head-left h1 {
+  color: #1bb591;
+  font-weight: 700;
+}
+.login-card-head-left h4 {
+  color: #abb9c9;
+}
+
+.login-input {
+  margin-top: 30px;
+  text-align: left;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+  margin-bottom: 10px;
+}
