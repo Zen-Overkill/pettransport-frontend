@@ -8,10 +8,6 @@ import {
 } from '@ant-design/icons';
 import { FaRegHandshake, FaBriefcaseMedical } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
-import homepagePoster from './../../../../assets/images/homepage-poster.PNG';
-import aboutUs from './../../../../assets/images/about-us-pet.jpg';
-import featureOn from './../../../../assets/images/feature-on.PNG';
-import psa from './../../../../assets/images/psa.png';
 import './HomePage.less';
 import { useMount } from 'ahooks';
 import { useState } from 'react';
@@ -72,7 +68,7 @@ function HomePage() {
           }}
         >
           <img
-            src={homepagePoster}
+            src='https://i.upanh.org/2022/07/22/homepage-poster.png'
             className='homepage-poster'
             alt='Pet transport logo'
           />
@@ -193,7 +189,7 @@ function HomePage() {
                     highest level of respect.
                   </p>
                   <img
-                    src={aboutUs}
+                    src='https://i.upanh.org/2022/07/22/about-us-pet.jpg'
                     className='homepage-about-us'
                     alt='About us pet picture'
                   />
@@ -201,7 +197,7 @@ function HomePage() {
               </div>
               <div className='feature-on'>
                 <img
-                  src={featureOn}
+                  src='https://i.upanh.org/2022/07/22/feature-on.png'
                   alt='feature-on'
                   className='feature-on-img'
                 />
@@ -209,7 +205,11 @@ function HomePage() {
               <div className='psa'>
                 <div className='psa-align'>
                   <Space align='center'>
-                    <img src={psa} alt='PSA' className='psa-img' />
+                    <img
+                      src='https://i.upanh.org/2022/07/22/psa.png'
+                      alt='PSA'
+                      className='psa-img'
+                    />
                     <div className='psa-right'>
                       <h2>
                         PSA: Beware of Fraudulent Pet Relocation Companies
