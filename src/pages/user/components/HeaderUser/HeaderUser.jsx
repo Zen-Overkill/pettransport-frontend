@@ -16,7 +16,7 @@ function HeaderUser() {
   return (
     <div className='header-background'>
       <div className='header-main'>
-        <img src={petLogo} className='header-logo' alt='Pet transport logo' />
+        <img src="https://i.upanh.org/2022/07/22/petLogo.png" className='header-logo' alt='Pet transport logo' />
         <Menu
           className='header-nav'
           theme='light'
